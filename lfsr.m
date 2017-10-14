@@ -1,5 +1,6 @@
 function returnValue = lfsr(varargin)
 %lfsr Implements a Linear Feedback Shift Register
+%
 % Usage example:       
 %   taps = lfsr(8);         - initializes the LFSR for 8 bits
 %   val = lfsr(taps, val);  - get value from the LFSR. The first time
