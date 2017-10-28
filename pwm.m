@@ -29,16 +29,5 @@ seq = seq >= 0;
 signal = double(seq);
 
 
-% the Frequency F is
-% actually the rate of the internal counter. So, we need this to get the
-% frequency of the sawtooth wave:
-%F = F/(2^bits -1);
-
-% and then we can simply create the desired signal
-%t = 0:1/Fs:T-1/Fs;
-%carrier = sawtooth(2*pi*F*t);
-%signal = carrier >= (1-ratio*2);
-%signal = double(signal);
-
 end %function
 

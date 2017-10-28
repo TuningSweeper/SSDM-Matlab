@@ -25,7 +25,7 @@ for n = 1:1:T*F;
 end
 
 % interpolate to desired length
-randomSeq = interp1(randomSeq, linspace(1,T*F,T*F*(Fs/F)));
+randomSeq = interp1(randomSeq, linspace(1, T*F,T*F*(Fs/F)));
 
 % do the actual modulation here
 % note that the randomSeq contains numbers from 1 to 2^n-1 !!!

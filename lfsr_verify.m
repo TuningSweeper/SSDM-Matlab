@@ -3,8 +3,6 @@
 % Not really bullet proof, but makes sure that there aren't any stupid
 % programming issues.
 %
-% Juho Vesanen, 2017, MIT license
-
 
 
 for len=2:24

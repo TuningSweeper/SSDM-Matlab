@@ -75,5 +75,5 @@ Demonstrates the differences in amplitude spectrum of SSDM and PWM signals. It's
 Creates and audio file that contains few seconds of PWM signal followed by SSDM signal. This is to demonstrate the reduced amplitude on the fundamental frequency which is set to 2 kHz. [SSDMvsPWM.wav](media/SSDMvsPWM.wav)
 
 ## Copyright
-Juho Vesanen, 2017.
+(c) 2017 Juho Vesanen.
 Released under MIT license.
